@@ -1,4 +1,4 @@
-package com.disneystreaming.strum
+package demo
 
 import cats.effect.IOApp
 import cats.effect.IO
