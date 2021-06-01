@@ -8,7 +8,6 @@ val root = project
         "com.kubukoz" % "better-tostring" % "0.3.3" cross CrossVersion.full
       )
     ),
-    resolvers += "OSS Maven" at "https://artifactory.us-east-1.bamgrid.net/artifactory/oss-maven/",
     scalacOptions -= "-Xfatal-warnings",
     Compile / mainClass := Some("demo.Main"),
     nativeImageOptions += "-H:+ReportExceptionStackTraces",
